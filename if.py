@@ -1,5 +1,5 @@
 number = 23
-guess = int(input())
+guess = int(eval(input()))
 
 if guess == number:
     print('yes')

@@ -1,14 +1,14 @@
 name = 'swaroop'
 
 if name.startswith('swa'):
-    print 'yes'
+    print('yes')
 
 if 'a' in name:
-    print 'yes'
+    print('yes')
 
 if name.find('war') != -1:
-    print 'yes'
+    print('yes')
 
 delimiter = '_*_'
-mylist =['Brazil', 'Russia', 'India', 'China']
-print delimiter.join(mylist)
+mylist = ['Brazil', 'Russia', 'India', 'China']
+print((delimiter.join(mylist)))

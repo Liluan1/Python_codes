@@ -8,5 +8,5 @@
 # print('b', end=' ')
 # print('c')
 
-print 'a',
-print 'b'
+print('a', end=' ')
+print('b')

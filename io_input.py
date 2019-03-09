@@ -4,8 +4,8 @@ def reverse(text):
 def is_palindrome(text):
     return text == reverse(text)
 
-something = raw_input('Enter text:')
+something = input('Enter text:')
 if is_palindrome(something):
-    print 'Yes, it is a palindrome'
+    print('Yes, it is a palindrome')
 else:
-    print 'No, it is not a palindrome'
+    print('No, it is not a palindrome')

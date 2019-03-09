@@ -5,7 +5,7 @@ def geocode(address):
     base = 'http://api.map.baidu.com/geocoder/v2/'
     response = requests.get(base, params=parameters)
     answer = response
-    print(answer.text)
+    print((answer.text))
 
 if __name__ == '__main__':
     geocode('北京市海淀区上地十街10号')

@@ -14,4 +14,4 @@ del shoplist
 f = open(shoplistfile, 'rb')
 
 storedlist = pickle.load(f)
-print storedlist
+print(storedlist)

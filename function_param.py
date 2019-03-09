@@ -1,10 +1,10 @@
 def print_max(a,b):
     if a > b:
-        print a
+        print(a)
     elif a == b:
-        print a, '=', b
+        print(a, '=', b)
     else:
-        print b
+        print(b)
 print_max(4,4)
 
 x = 5

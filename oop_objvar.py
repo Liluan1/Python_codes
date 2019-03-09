@@ -9,26 +9,26 @@ class Robot:
     def __init__(self, name):   #name 变量属于一个对象变量
         '''初始化数据'''
         self.name = name
-        print "(Initializing {})".format(self.name)
+        print("(Initializing {})".format(self.name))
 
         Robot.population += 1
 
     def die(self):
-        print "{} is being destroyed".format(self.name)
+        print("{} is being destroyed".format(self.name))
 
         Robot.population -= 1
 
         if Robot.population == 0:
-            print "{} was the last one".format(self.name)
+            print("{} was the last one".format(self.name))
         else:
-            print "There are still {} robots working".format(Robot.population)
+            print("There are still {} robots working".format(Robot.population))
 
     def say_hi(self):
-        print "Greetings, my master call me {}".format(self.name)
+        print("Greetings, my master call me {}".format(self.name))
 
     @classmethod    #使用装饰器定义类方法等价于 how_many = classmethod(how_many)
     def how_many(cls):
-        print "We have {:d} robots".format(cls.population)
+        print("We have {:d} robots".format(cls.population))
 
 droid1 = Robot("R2-D2")
 droid1.say_hi()
@@ -38,9 +38,9 @@ droid2 = Robot("C-3PO")
 droid2.say_hi()
 Robot.how_many()
 
-print "\nRobots can do some work here\n"
+print("\nRobots can do some work here\n")
 
-print "Robots have finished their work.So let's sedtoryed them"
+print("Robots have finished their work.So let's sedtoryed them")
 droid1.die()
 droid2.die()
 

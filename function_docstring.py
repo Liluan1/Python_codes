@@ -5,9 +5,9 @@ def print_max(x, y):
     y = int(y)
 
     if x > y:
-        print x, 'is maximun'
+        print(x, 'is maximun')
     else:
-        print y, 'is maximum'
+        print(y, 'is maximum')
 
 print_max(3, 5)
-print print_max.__doc__
+print(print_max.__doc__)

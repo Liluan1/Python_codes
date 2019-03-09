@@ -6,4 +6,4 @@ def maximum(x, y):
     else:
         return y
 
-print maximum(2, 2)
+print(maximum(2, 2))
